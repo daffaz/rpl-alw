@@ -1,0 +1,38 @@
+#cek {
+    border-radius: 10px;
+    border: 0px solid;
+    padding: 10px 21px;
+    opacity: .8;
+    box-shadow: 0 7px #1e695e;
+    margin-right: 10px;
+    overflow: hidden;
+}
+
+#cek:active {
+    position: relative;
+    top: 7px;
+    box-shadow: none;
+}
+
+#cek:hover {
+    opacity: 1;
+}
+
+#klear {
+    border-radius: 10px;
+    border: 0px solid;
+    padding: 10px 21px;
+    opacity: .8;
+    box-shadow: 0 7px rgb(99, 16, 16);
+    overflow: hidden;
+}
+
+#klear:active {
+    position: relative;
+    top: 7px;
+    box-shadow: none;
+}
+
+#klear:hover {
+    opacity: 1;
+}

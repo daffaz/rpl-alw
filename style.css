@@ -1,0 +1,116 @@
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+.container {
+    background: #8d4701;
+    width: 100%;
+    margin: 0px auto;
+    min-height: 100%;
+    position: relative;
+}
+
+
+/*bagian header*/
+
+.container .header {
+    background: #F9983E;
+    /*height: 50px;*/
+    padding: 3px 10px;
+    text-align: center;
+    color: white;
+}
+.header h1 {
+  font-size: 50px;
+  line-height: 30px;
+}
+
+/*akhir header*/
+
+
+/*bagian menu*/
+.container .menu {
+    background: #8d4701;
+    color: white;
+    text-align: center;
+}
+div.menu > p {
+    font-weight: 700;
+}
+
+/*akhir menu*/
+
+.clear {
+    clear: both;
+}
+
+.badan {
+    height: 100%;
+}
+
+
+/*akhir sidebar*/
+
+.container .badan .content {
+    background: white;
+    height: 100%;
+    width: 100%;
+}
+
+.container .badan p {
+    text-align: justify;
+    /* padding: 80px; */
+    padding-right: 80px;
+    padding-left: 80px;
+    font-style: calibri;
+    font-size: 15pt;
+}
+
+.container .footer {
+    width: 100%;
+    line-height: 10px;
+    background: #333;
+    color: #fff;
+    bottom: 0px;
+    position: absolute;
+    text-align: center;
+}
+
+body {
+    background-color: #e5e5e5;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+img {
+    display: block;
+    margin: auto;
+    padding-top: 40px;
+}
+
+hr {
+    border: 1px;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+button {
+    display: block;
+    margin: auto;
+}
+.buwton {
+  border: 0;
+  background-color: #35D0BA;
+  padding: 10px;
+  color: white;
+  border-radius:10px;
+  opacity: .8;
+  box-shadow: 0 7px #1e695e;
+}
+.buwton:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+.buwton:hover {
+  opacity: 1;
+}
