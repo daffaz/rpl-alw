@@ -17,7 +17,7 @@
      
   </style> */ -->
 </head>
-<body style="background-color:#E5E5E5; color: white; font-family: 'Montserrat', sans-serif;">
+<body style="@import url(//fonts.googleapis.com/css2?family=Montserrat);background-color:#E5E5E5; color: white; font-family: 'Montserrat', sans-serif;">
     <div class="container-fluid p-3 text-center text-white" style="background-color: #F9983E;">
     <span style="float: left; cursor: pointer;font-family: 'Montserrat', sans-serif;" onclick="window.location.href='index.html'">
       <i class="fa fa-rocket fa-2x" style="padding-right: 5px;"></i><span style="font-weight: bold;font-size: 1.3em;">SiCeMet!</span>
