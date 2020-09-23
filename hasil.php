@@ -56,7 +56,7 @@ include 'function.php';
       width: 20%;
     }
   </style>
-  <title>Hello, world!</title>
+  <title>Hasil</title>
 </head>
 
 <body style="background-color:#E5E5E5; color: white;">
