@@ -9,15 +9,16 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <title>SiCeMet</title>
-  <!-- <style>
-   /* hr 
-      border-width: 7px;
-      border-color: white;
-      width: 30%;
-     
-  </style> */ -->
+   <style>
+      @import url(//fonts.googleapis.com/css2?family=Montserrat);
+      body {
+        background-color:#E5E5E5;
+        color: white; 
+        font-family: 'Montserrat', sans-serif;
+      }
+  </style>
 </head>
-<body style="@import url(//fonts.googleapis.com/css2?family=Montserrat);background-color:#E5E5E5; color: white; font-family: 'Montserrat', sans-serif;">
+<body>
     <div class="container-fluid p-3 text-center text-white" style="background-color: #F9983E;">
     <span style="float: left; cursor: pointer;font-family: 'Montserrat', sans-serif;" onclick="window.location.href='index.html'">
       <i class="fa fa-rocket fa-2x" style="padding-right: 5px;"></i><span style="font-weight: bold;font-size: 1.3em;">SiCeMet!</span>
